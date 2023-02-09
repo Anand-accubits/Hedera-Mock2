@@ -39,10 +39,10 @@ const query = async (client, contractId, paramObj) => {
 
     //Submit the transaction to a Hedera network and store the response
     const contractQuerySubmit = await contractCallQuery.execute(client);
-    console.log(contractQuerySubmit.getUint256(0))
+    console.log('Retrieved data is ' + contractQuerySubmit.getUint256(0).toString())
 
 
 }
 
 exports.invoke = (client, contractId, paramObj) => invoke(client, contractId, paramObj);
-exports.query = (client, contractId) => query(client, contractId);
+exports.query = (client, contractId, paramObj) => query(client, contractId, paramObj);

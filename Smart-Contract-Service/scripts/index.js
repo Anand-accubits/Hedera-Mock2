@@ -26,7 +26,7 @@ async function main() {
     const contractId = await deployer.deploy(client);
     const randomNumber = await random.generate(client, 123456);
     await invoker.invoke(client, contractId, new ContractFunctionParameters().addString("Alice").addUint256(randomNumber));
-    await invoker.query(client, '0.0.3417340', new ContractFunctionParameters().addString("Alice"));
+    await invoker.query(client, contractId, new ContractFunctionParameters().addString("Alice"));
     process.exit();
 }
 
