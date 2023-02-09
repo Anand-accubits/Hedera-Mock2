@@ -10,7 +10,10 @@ Read it.
 *Output*
 
 The smart contract byte code file ID is 0.0.3421028
+
 The smart contract ID is 0.0.3421030
+
 Random Number Generated is:  89611
+
 The transaction status is SUCCESS
 
