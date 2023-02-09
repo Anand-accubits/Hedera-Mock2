@@ -1,4 +1,4 @@
-*TASK1*
+*TASK2*
 
 Deploy the smart contract. 
 Generate a pseudo random number using Hedera SDK in the range of 123456 and  add it to the smart contract corresponding to Alice.
