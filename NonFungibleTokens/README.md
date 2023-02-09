@@ -8,7 +8,7 @@ Create an NFT with Royalty. Show that the Royalty will be received on transfer.
 
 *Output*
 
-0.0.7768
+
 NFT is Created with TokenId: 0.0.3421327 
 
 TOKENID:  0.0.3421327
@@ -20,3 +20,4 @@ TOKENID:  0.0.3421327
 
 - NFT transfer from Treasury to Buyer: SUCCESS 
 
+Transaction URL: https://hashscan.io/testnet/account/0.0.7768?p2=1
