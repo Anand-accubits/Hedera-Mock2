@@ -3,7 +3,7 @@
 Create a script to generate  Hedera Testnet accounts dynamically. Number of accounts should be taken from the environment and each account should be funded with 100Hbar while creating itself. Print the account IDs, private keys and public keys along with the balance
 
 *RUN*
-1. npm run start:generateAccounts to create the accounts
+1. npm run start:generateAccounts - to create the accounts
 
 *Output*
 
